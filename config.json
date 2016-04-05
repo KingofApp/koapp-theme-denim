@@ -1,0 +1,64 @@
+{
+  "name": "Denim",
+  "identifier": "koapp-theme-denim",
+  "description": {
+    "en-US" : "",
+    "es-ES" : "Plantilla basada en las guías de diseño de Material Design"
+  },
+  "version": "1.0.0",
+  "author": "King of App",
+  "category": [
+    "material-design"
+  ],
+  "price": 0,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "showOn": {
+    "market": true
+  },
+  "images" : {
+    "list" : "themes/koapp-theme-denim/images/list.png",
+    "screenshots" : [
+      "themes/koapp-theme-denim/images/screenshot01.png",
+      "themes/koapp-theme-denim/images/screenshot02.png"
+    ],
+    "popover" : "themes/koapp-theme-denim/images/popover.png",
+    "banner" : "themes/koapp-theme-denim/images/banner.png"
+  },
+  "defaultConfig": {
+    "colors": {
+      "primaryTextColor": "#bdced7",
+      "primaryBackgroundColor": "#ffffff",
+      "secondaryTextColor": "#edf1f4",
+      "disabledTextColor": "black",
+      "dividerColor": "#e0e0e0",
+      "primaryColor": "#90a4ae",
+      "lightPrimaryColor": "#c5cae9",
+      "darkPrimaryColor": "#484e6e",
+      "accentColor": "#ff4081",
+      "lightAccentColor": "#ff4081",
+      "darkAccentColor": "#ff4081",
+      "errorColor": "#dd2c00",
+      "backgroundColor": "#373b50"
+    },
+    "images": {
+      "background": ""
+    },
+    "fonts": {
+      "primaryFontFamily": {
+        "name": "Source Sans Pro",
+        "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      },
+      "titleFontFamily": {
+        "name": "Oxygen",
+        "url": "https://fonts.googleapis.com/css?family=Oxygen"
+      }
+    },
+    "menu": "polymermenu"
+  },
+  "subscription": false,
+  "main": "themes/koapp-theme-denim/koapp-theme-denim.html"
+}
